@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.fieldwork.beacons"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap Example</name>
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <platform name="ios" />
+    <platform name="android" />
+
+    <!-- The phonegap-estimotebeacons needs to be installed from github because installing from npm doesn't work. See https://github.com/evothings/phonegap-estimotebeacons/issues/96  -->
+    <plugin spec="https://github.com/evothings/phonegap-estimotebeacons" />
+    <plugin name="cordova-plugin-whitelist" />
+    <plugin name="cordova-plugin-device" />
+
+</widget>
